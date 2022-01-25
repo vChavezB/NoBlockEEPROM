@@ -15,7 +15,7 @@ along with IOLink Device Generator.  If not, see <https://www.gnu.org/licenses/>
 
 */
 
-#include "NoBlockEEPROM.h"
+#include "NoBlockEEPROM.hpp"
 #include "Arduino.h"
 #include <util/atomic.h>
 
