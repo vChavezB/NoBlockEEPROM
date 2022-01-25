@@ -1,5 +1,5 @@
 #include <EEPROM.h>
-#include "NoBlkEEPROM.hpp"
+#include "NoBlockEEPROM.h"
 
 bool EEPROM_WriteFinished = false;
 
