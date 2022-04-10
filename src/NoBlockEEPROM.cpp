@@ -19,7 +19,7 @@ along with IOLink Device Generator.  If not, see <https://www.gnu.org/licenses/>
 #include "Arduino.h"
 #include <util/atomic.h>
 
-#define MAX_ADR (1023) /*!<Max EEPROM Address for Arduino UNO */
+constexpr unsigned MAX_ADR = 1023; /*!<Max EEPROM Address for Arduino UNO */
 
 NoBlkEEPROMClass& NoBlkEEPROM = NoBlkEEPROMClass::instance();
 
